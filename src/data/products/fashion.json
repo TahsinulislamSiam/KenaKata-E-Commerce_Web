@@ -1,0 +1,178 @@
+[
+  {
+    "id": "fa-2001",
+    "title": "Men's Slim-Fit Casual Shirt (Sky Blue)",
+    "price": 1599,
+    "discountPrice": 1099,
+    "rating": 4.2,
+    "reviewCount": 934,
+    "images": ["https://picsum.photos/seed/kk-fa2001a/600/600", "https://picsum.photos/seed/kk-fa2001b/600/600", "https://picsum.photos/seed/kk-fa2001c/600/600"],
+    "brand": "Urban Thread",
+    "stock": 85,
+    "description": "Breathable cotton slim-fit shirt with a modern cut — smart enough for the office, easy enough for weekends.",
+    "specs": {
+      "Material": "100% cotton poplin",
+      "Fit": "Slim fit",
+      "Sizes": "S, M, L, XL, XXL",
+      "Care": "Machine wash cold",
+      "Origin": "Made in Bangladesh"
+    },
+    "category": "fashion",
+    "createdAt": "2026-04-02",
+    "badges": []
+  },
+  {
+    "id": "fa-2002",
+    "title": "Women's Embroidered Kurti (Mustard)",
+    "price": 1899,
+    "discountPrice": 1499,
+    "rating": 4.5,
+    "reviewCount": 1522,
+    "images": ["https://picsum.photos/seed/kk-fa2002a/600/600", "https://picsum.photos/seed/kk-fa2002b/600/600", "https://picsum.photos/seed/kk-fa2002c/600/600"],
+    "brand": "Nokshi",
+    "stock": 60,
+    "description": "Hand-embroidered cotton kurti with thread work around the neckline and a relaxed, comfortable silhouette.",
+    "specs": {
+      "Material": "Cotton silk blend",
+      "Embroidery": "Hand needle work",
+      "Sizes": "S, M, L, XL",
+      "Care": "Hand wash / gentle cycle",
+      "Origin": "Made in Bangladesh"
+    },
+    "category": "fashion",
+    "createdAt": "2026-06-10",
+    "badges": ["bestseller"]
+  },
+  {
+    "id": "fa-2003",
+    "title": "Men's Classic Denim Jacket (Indigo)",
+    "price": 2799,
+    "discountPrice": 2199,
+    "rating": 4.3,
+    "reviewCount": 611,
+    "images": ["https://picsum.photos/seed/kk-fa2003a/600/600", "https://picsum.photos/seed/kk-fa2003b/600/600", "https://picsum.photos/seed/kk-fa2003c/600/600"],
+    "brand": "Urban Thread",
+    "stock": 34,
+    "description": "Timeless mid-weight denim jacket with button chest pockets and a slightly washed indigo finish.",
+    "specs": {
+      "Material": "98% cotton, 2% elastane",
+      "Fit": "Regular fit",
+      "Sizes": "M, L, XL, XXL",
+      "Closure": "Button front",
+      "Care": "Machine wash cold"
+    },
+    "category": "fashion",
+    "createdAt": "2025-12-05",
+    "badges": []
+  },
+  {
+    "id": "fa-2004",
+    "title": "Women's Organza Anarkali Saree (Maroon)",
+    "price": 4299,
+    "discountPrice": 3499,
+    "rating": 4.6,
+    "reviewCount": 878,
+    "images": ["https://picsum.photos/seed/kk-fa2004a/600/600", "https://picsum.photos/seed/kk-fa2004b/600/600", "https://picsum.photos/seed/kk-fa2004c/600/600"],
+    "brand": "Rangbari",
+    "stock": 21,
+    "description": "Flowing organza saree with zari border and sequin detailing, paired with an unstitched blouse piece.",
+    "specs": {
+      "Fabric": "Pure organza",
+      "Work": "Zari border, sequin",
+      "Length": "6.3 m + blouse piece",
+      "Occasion": "Wedding, festive",
+      "Care": "Dry clean only"
+    },
+    "category": "fashion",
+    "createdAt": "2026-07-18",
+    "badges": ["deal"]
+  },
+  {
+    "id": "fa-2005",
+    "title": "Unisex Canvas Sneakers (White)",
+    "price": 2199,
+    "discountPrice": 1699,
+    "rating": 4.1,
+    "reviewCount": 1203,
+    "images": ["https://picsum.photos/seed/kk-fa2005a/600/600", "https://picsum.photos/seed/kk-fa2005b/600/600", "https://picsum.photos/seed/kk-fa2005c/600/600"],
+    "brand": "Stride",
+    "stock": 96,
+    "description": "Minimal low-top canvas sneakers with a cushioned insole and vulcanised rubber sole for all-day comfort.",
+    "specs": {
+      "Upper": "Canvas",
+      "Sole": "Vulcanised rubber",
+      "Sizes": "EU 36-45",
+      "Closure": "Lace-up",
+      "Care": "Spot clean"
+    },
+    "category": "fashion",
+    "createdAt": "2026-02-28",
+    "badges": []
+  },
+  {
+    "id": "fa-2006",
+    "title": "Men's Leather-Strap Analog Watch (Black)",
+    "price": 5499,
+    "discountPrice": 3999,
+    "rating": 4.4,
+    "reviewCount": 456,
+    "images": ["https://picsum.photos/seed/kk-fa2006a/600/600", "https://picsum.photos/seed/kk-fa2006b/600/600", "https://picsum.photos/seed/kk-fa2006c/600/600"],
+    "brand": "Chrono",
+    "stock": 27,
+    "description": "Minimal three-hand analog watch with a sapphire-coated glass, stainless steel case and genuine leather strap.",
+    "specs": {
+      "Movement": "Japanese quartz",
+      "Case": "40mm stainless steel",
+      "Glass": "Hardened mineral",
+      "Strap": "Genuine leather, 20mm",
+      "Water Resistance": "3 ATM"
+    },
+    "category": "fashion",
+    "createdAt": "2025-10-15",
+    "badges": []
+  },
+  {
+    "id": "fa-2007",
+    "title": "Men's Cargo Pants (Olive)",
+    "price": 1999,
+    "discountPrice": 1499,
+    "rating": 4.0,
+    "reviewCount": 723,
+    "images": ["https://picsum.photos/seed/kk-fa2007a/600/600", "https://picsum.photos/seed/kk-fa2007b/600/600", "https://picsum.photos/seed/kk-fa2007c/600/600"],
+    "brand": "Urban Thread",
+    "stock": 48,
+    "description": "Ripstop cotton cargo pants with six pockets, adjustable hem and a comfortable mid-rise fit.",
+    "specs": {
+      "Material": "Ripstop cotton twill",
+      "Fit": "Relaxed fit",
+      "Sizes": "30-40 (waist)",
+      "Pockets": "6 utility pockets",
+      "Care": "Machine wash"
+    },
+    "category": "fashion",
+    "createdAt": "2026-03-25",
+    "badges": []
+  },
+  {
+    "id": "fa-2008",
+    "title": "Women's Quilted Leather Tote Bag (Tan)",
+    "price": 2599,
+    "discountPrice": 1999,
+    "rating": 4.3,
+    "reviewCount": 990,
+    "images": ["https://picsum.photos/seed/kk-fa2008a/600/600", "https://picsum.photos/seed/kk-fa2008b/600/600", "https://picsum.photos/seed/kk-fa2008c/600/600"],
+    "brand": "Carry & Co",
+    "stock": 38,
+    "description": "Structured quilted tote with a zip closure, interior laptop sleeve and a detachable shoulder strap.",
+    "specs": {
+      "Material": "Vegan leather",
+      "Dimensions": "38 x 28 x 12 cm",
+      "Laptop Sleeve": "Fits up to 14\"",
+      "Closure": "Zip top",
+      "Strap": "Detachable, drop 24 cm"
+    },
+    "category": "fashion",
+    "createdAt": "2026-08-30",
+    "badges": ["new"]
+  }
+]

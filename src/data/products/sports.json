@@ -1,0 +1,156 @@
+[
+  {
+    "id": "sp-6001",
+    "title": "English Willow Cricket Bat (Size SH)",
+    "price": 12500,
+    "discountPrice": 9800,
+    "rating": 4.5,
+    "reviewCount": 726,
+    "images": ["https://picsum.photos/seed/kk-sp6001a/600/600", "https://picsum.photos/seed/kk-sp6001b/600/600", "https://picsum.photos/seed/kk-sp6001c/600/600"],
+    "brand": "PowerPlay",
+    "stock": 17,
+    "description": "Hand-pressed English willow bat with a mid-to-low sweet spot, thick edges and a pre-knocked blade.",
+    "specs": {
+      "Willow": "Grade 2 English willow",
+      "Weight": "2lb 8oz - 2lb 10oz",
+      "Edges": "38 mm",
+      "Handle": "Sarawak cane, 9-piece",
+      "Includes": "Bat cover"
+    },
+    "category": "sports",
+    "createdAt": "2026-02-05",
+    "badges": ["bestseller"]
+  },
+  {
+    "id": "sp-6002",
+    "title": "Adjustable Dumbbell Set 20kg (Pair)",
+    "price": 8900,
+    "discountPrice": 6900,
+    "rating": 4.4,
+    "reviewCount": 1544,
+    "images": ["https://picsum.photos/seed/kk-sp6002a/600/600", "https://picsum.photos/seed/kk-sp6002b/600/600", "https://picsum.photos/seed/kk-sp6002c/600/600"],
+    "brand": "IronFlex",
+    "stock": 22,
+    "description": "Space-saving adjustable dumbbells — dial from 2.5kg to 10kg per hand in seconds. Perfect for home workouts.",
+    "specs": {
+      "Range": "2.5-10 kg per dumbbell",
+      "Increments": "1.25 kg steps",
+      "Grip": "Knurled chrome handle",
+      "Includes": "2 dumbbells + trays",
+      "Warranty": "1 year"
+    },
+    "category": "sports",
+    "createdAt": "2026-01-30",
+    "badges": ["deal"]
+  },
+  {
+    "id": "sp-6003",
+    "title": "Thermo-Bonded Football (Size 5)",
+    "price": 1899,
+    "discountPrice": 1399,
+    "rating": 4.3,
+    "reviewCount": 2310,
+    "images": ["https://picsum.photos/seed/kk-sp6003a/600/600", "https://picsum.photos/seed/kk-sp6003b/600/600", "https://picsum.photos/seed/kk-sp6003c/600/600"],
+    "brand": "GoalPro",
+    "stock": 95,
+    "description": "FIFA-quality thermo-bonded match ball with a textured PU surface for true flight in all weather.",
+    "specs": {
+      "Size": "5 (official)",
+      "Construction": "Thermo-bonded panels",
+      "Bladder": "Latex",
+      "Surface": "Textured PU",
+      "Use": "Match & training"
+    },
+    "category": "sports",
+    "createdAt": "2025-11-11",
+    "badges": []
+  },
+  {
+    "id": "sp-6004",
+    "title": "Anti-Slip Yoga Mat 6mm with Strap",
+    "price": 1450,
+    "discountPrice": 999,
+    "rating": 4.5,
+    "reviewCount": 4102,
+    "images": ["https://picsum.photos/seed/kk-sp6004a/600/600", "https://picsum.photos/seed/kk-sp6004b/600/600", "https://picsum.photos/seed/kk-sp6004c/600/600"],
+    "brand": "ZenFlex",
+    "stock": 142,
+    "description": "6mm TPE yoga mat with double-sided texture grip, alignment lines and a carrying strap.",
+    "specs": {
+      "Thickness": "6 mm",
+      "Material": "Eco-friendly TPE",
+      "Size": "183 x 61 cm",
+      "Grip": "Double-sided anti-slip",
+      "Includes": "Carrying strap"
+    },
+    "category": "sports",
+    "createdAt": "2026-03-03",
+    "badges": ["bestseller", "deal"]
+  },
+  {
+    "id": "sp-6005",
+    "title": "Mountain Bike 26\" 21-Speed (Front Suspension)",
+    "price": 28500,
+    "discountPrice": 23990,
+    "rating": 4.2,
+    "reviewCount": 389,
+    "images": ["https://picsum.photos/seed/kk-sp6005a/600/600", "https://picsum.photos/seed/kk-sp6005b/600/600", "https://picsum.photos/seed/kk-sp6005c/600/600"],
+    "brand": "RidgeRider",
+    "stock": 9,
+    "description": "Alloy-frame mountain bike with 21-speed Shimano gearing, front suspension fork and dual disc brakes.",
+    "specs": {
+      "Frame": "Alloy hardtail",
+      "Wheel Size": "26\"",
+      "Gears": "21-speed Shimano",
+      "Brakes": "Front & rear disc",
+      "Rider Height": "5'2\" - 5'10\""
+    },
+    "category": "sports",
+    "createdAt": "2025-10-02",
+    "badges": []
+  },
+  {
+    "id": "sp-6006",
+    "title": "Men's Breathable Running Shoes",
+    "price": 3299,
+    "discountPrice": 2499,
+    "rating": 4.4,
+    "reviewCount": 1876,
+    "images": ["https://picsum.photos/seed/kk-sp6006a/600/600", "https://picsum.photos/seed/kk-sp6006b/600/600", "https://picsum.photos/seed/kk-sp6006c/600/600"],
+    "brand": "Stride",
+    "stock": 58,
+    "description": "Feather-light running shoes with a breathable knit upper, responsive foam midsole and grippy outsole.",
+    "specs": {
+      "Upper": "Breathable knit",
+      "Midsole": "Responsive EVA foam",
+      "Outsole": "Rubber, anti-slip",
+      "Sizes": "EU 39-45",
+      "Weight": "240 g (size 42)"
+    },
+    "category": "sports",
+    "createdAt": "2026-08-14",
+    "badges": ["new"]
+  },
+  {
+    "id": "sp-6007",
+    "title": "Badminton Racket Set (2 Rackets + 3 Shuttlecocks)",
+    "price": 2799,
+    "discountPrice": 2099,
+    "rating": 4.1,
+    "reviewCount": 654,
+    "images": ["https://picsum.photos/seed/kk-sp6007a/600/600", "https://picsum.photos/seed/kk-sp6007b/600/600", "https://picsum.photos/seed/kk-sp6007c/600/600"],
+    "brand": "SmashX",
+    "stock": 44,
+    "description": "Lightweight carbon-shaft racket pair with full covers and three nylon shuttlecocks — ready to play.",
+    "specs": {
+      "Rackets": "2 (85-90 g each)",
+      "Shaft": "Carbon composite",
+      "Strings": "Pre-strung, 24 lbs",
+      "Shuttlecocks": "3 nylon included",
+      "Covers": "2 full racket covers"
+    },
+    "category": "sports",
+    "createdAt": "2025-09-21",
+    "badges": []
+  }
+]

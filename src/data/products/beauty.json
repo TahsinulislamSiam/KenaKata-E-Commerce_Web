@@ -1,0 +1,156 @@
+[
+  {
+    "id": "bt-5001",
+    "title": "Vitamin C 20% Face Serum (30ml)",
+    "price": 1250,
+    "discountPrice": 899,
+    "rating": 4.4,
+    "reviewCount": 3412,
+    "images": ["https://picsum.photos/seed/kk-bt5001a/600/600", "https://picsum.photos/seed/kk-bt5001b/600/600", "https://picsum.photos/seed/kk-bt5001c/600/600"],
+    "brand": "GlowLab",
+    "stock": 88,
+    "description": "Brightening serum with 20% stabilised Vitamin C, hyaluronic acid and vitamin E for even, glowing skin.",
+    "specs": {
+      "Volume": "30 ml",
+      "Key Ingredients": "20% Vitamin C, hyaluronic acid",
+      "Skin Type": "All skin types",
+      "Free From": "Parabens, sulphates",
+      "Use": "AM, before sunscreen"
+    },
+    "category": "beauty",
+    "createdAt": "2026-03-18",
+    "badges": ["bestseller", "deal"]
+  },
+  {
+    "id": "bt-5002",
+    "title": "Matte Lipstick Set — 6 Shades",
+    "price": 1499,
+    "discountPrice": 1099,
+    "rating": 4.3,
+    "reviewCount": 1876,
+    "images": ["https://picsum.photos/seed/kk-bt5002a/600/600", "https://picsum.photos/seed/kk-bt5002b/600/600", "https://picsum.photos/seed/kk-bt5002c/600/600"],
+    "brand": "Tint",
+    "stock": 52,
+    "description": "Six long-wear matte shades — from everyday nude to bold maroon — with a transfer-proof finish.",
+    "specs": {
+      "Shades": "6 (nude to maroon)",
+      "Finish": "Matte",
+      "Wear Time": "Up to 8 hours",
+      "Texture": "Creamy, non-drying",
+      "Cruelty Free": "Yes"
+    },
+    "category": "beauty",
+    "createdAt": "2026-05-02",
+    "badges": []
+  },
+  {
+    "id": "bt-5003",
+    "title": "Argan Oil Hair Serum (100ml)",
+    "price": 890,
+    "discountPrice": 690,
+    "rating": 4.2,
+    "reviewCount": 954,
+    "images": ["https://picsum.photos/seed/kk-bt5003a/600/600", "https://picsum.photos/seed/kk-bt5003b/600/600", "https://picsum.photos/seed/kk-bt5003c/600/600"],
+    "brand": "SilkRoot",
+    "stock": 74,
+    "description": "Lightweight Moroccan argan oil serum that tames frizz and adds shine without weighing hair down.",
+    "specs": {
+      "Volume": "100 ml",
+      "Key Ingredients": "Argan oil, vitamin E",
+      "Hair Type": "All hair types",
+      "Usage": "2-3 pumps on damp ends",
+      "Free From": "Silicones, parabens"
+    },
+    "category": "beauty",
+    "createdAt": "2025-10-25",
+    "badges": []
+  },
+  {
+    "id": "bt-5004",
+    "title": "Sunscreen SPF 50+ PA++++ (50g)",
+    "price": 990,
+    "discountPrice": 749,
+    "rating": 4.6,
+    "reviewCount": 5231,
+    "images": ["https://picsum.photos/seed/kk-bt5004a/600/600", "https://picsum.photos/seed/kk-bt5004b/600/600", "https://picsum.photos/seed/kk-bt5004c/600/600"],
+    "brand": "SunShield",
+    "stock": 130,
+    "description": "Lightweight gel sunscreen with SPF 50+ PA++++ — no white cast, no stickiness, perfect under makeup.",
+    "specs": {
+      "SPF": "50+ PA++++",
+      "Texture": "Lightweight gel",
+      "Skin Type": "Oily, combination, normal",
+      "Water Resistance": "80 minutes",
+      "Volume": "50 g"
+    },
+    "category": "beauty",
+    "createdAt": "2026-04-08",
+    "badges": ["bestseller"]
+  },
+  {
+    "id": "bt-5005",
+    "title": "Oud Perfume for Men (75ml)",
+    "price": 2499,
+    "discountPrice": 1899,
+    "rating": 4.5,
+    "reviewCount": 1290,
+    "images": ["https://picsum.photos/seed/kk-bt5005a/600/600", "https://picsum.photos/seed/kk-bt5005b/600/600", "https://picsum.photos/seed/kk-bt5005c/600/600"],
+    "brand": "Attar House",
+    "stock": 36,
+    "description": "Rich oriental oud fragrance with notes of saffron, rose and amber — long-lasting evening scent.",
+    "specs": {
+      "Volume": "75 ml",
+      "Family": "Woody oriental",
+      "Top Notes": "Saffron, bergamot",
+      "Base Notes": "Oud, amber, musk",
+      "Longevity": "8-10 hours"
+    },
+    "category": "beauty",
+    "createdAt": "2026-06-22",
+    "badges": []
+  },
+  {
+    "id": "bt-5006",
+    "title": "Sonic Electric Toothbrush (Rechargeable)",
+    "price": 3499,
+    "discountPrice": 2699,
+    "rating": 4.3,
+    "reviewCount": 688,
+    "images": ["https://picsum.photos/seed/kk-bt5006a/600/600", "https://picsum.photos/seed/kk-bt5006b/600/600", "https://picsum.photos/seed/kk-bt5006c/600/600"],
+    "brand": "Dentix",
+    "stock": 23,
+    "description": "31,000 strokes-per-minute sonic toothbrush with 5 cleaning modes and a 30-day battery.",
+    "specs": {
+      "Modes": "5 (clean, white, polish...)",
+      "Speed": "31,000 strokes/min",
+      "Battery": "Up to 30 days",
+      "Charging": "USB-C",
+      "Includes": "2 brush heads, travel case"
+    },
+    "category": "beauty",
+    "createdAt": "2026-09-18",
+    "badges": ["new"]
+  },
+  {
+    "id": "bt-5007",
+    "title": "Hair Dryer 2000W with Ionic Care",
+    "price": 2799,
+    "discountPrice": 2099,
+    "rating": 4.1,
+    "reviewCount": 543,
+    "images": ["https://picsum.photos/seed/kk-bt5007a/600/600", "https://picsum.photos/seed/kk-bt5007b/600/600", "https://picsum.photos/seed/kk-bt5007c/600/600"],
+    "brand": "SilkRoot",
+    "stock": 41,
+    "description": "2000W salon-style dryer with ionic conditioning, 3 heat settings and a concentrator nozzle.",
+    "specs": {
+      "Power": "2000W",
+      "Settings": "3 heat, 2 speed",
+      "Technology": "Ionic care",
+      "Attachments": "Concentrator, diffuser",
+      "Cable": "2 m"
+    },
+    "category": "beauty",
+    "createdAt": "2025-12-19",
+    "badges": ["deal"]
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "el-1001",
+    "title": "Samsung Galaxy S24 5G (12GB/256GB)",
+    "price": 84999,
+    "discountPrice": 74999,
+    "rating": 4.6,
+    "reviewCount": 2341,
+    "images": ["https://picsum.photos/seed/kk-el1001a/600/600", "https://picsum.photos/seed/kk-el1001b/600/600", "https://picsum.photos/seed/kk-el1001c/600/600"],
+    "brand": "Samsung",
+    "stock": 24,
+    "description": "Flagship smartphone with a 6.2-inch Dynamic AMOLED 2X display, Exynos 2400 chip and on-device Galaxy AI features.",
+    "specs": {
+      "Display": "6.2\" Dynamic AMOLED 2X, 120Hz",
+      "Processor": "Exynos 2400",
+      "RAM / Storage": "12GB / 256GB",
+      "Camera": "50MP + 12MP + 10MP",
+      "Battery": "4000 mAh, 25W fast charging"
+    },
+    "category": "electronics",
+    "createdAt": "2026-05-14",
+    "badges": ["bestseller", "deal", "new"]
+  },
+  {
+    "id": "el-1002",
+    "title": "Apple MacBook Air 13\" M3 (8GB/512GB)",
+    "price": 164999,
+    "discountPrice": 149999,
+    "rating": 4.8,
+    "reviewCount": 1893,
+    "images": ["https://picsum.photos/seed/kk-el1002a/600/600", "https://picsum.photos/seed/kk-el1002b/600/600", "https://picsum.photos/seed/kk-el1002c/600/600"],
+    "brand": "Apple",
+    "stock": 12,
+    "description": "Incredibly thin and quiet laptop with the M3 chip, 18-hour battery life and a brilliant Liquid Retina display.",
+    "specs": {
+      "Display": "13.6\" Liquid Retina",
+      "Chip": "Apple M3 (8-core CPU, 8-core GPU)",
+      "RAM / Storage": "8GB / 512GB SSD",
+      "Battery": "Up to 18 hours",
+      "Weight": "1.24 kg"
+    },
+    "category": "electronics",
+    "createdAt": "2026-03-08",
+    "badges": ["bestseller"]
+  },
+  {
+    "id": "el-1003",
+    "title": "Sony WH-1000XM5 Wireless Noise-Cancelling Headphones",
+    "price": 44990,
+    "discountPrice": 36990,
+    "rating": 4.7,
+    "reviewCount": 5621,
+    "images": ["https://picsum.photos/seed/kk-el1003a/600/600", "https://picsum.photos/seed/kk-el1003b/600/600", "https://picsum.photos/seed/kk-el1003c/600/600"],
+    "brand": "Sony",
+    "stock": 40,
+    "description": "Industry-leading noise cancellation with eight microphones, crystal-clear hands-free calling and 30-hour battery.",
+    "specs": {
+      "Driver": "30mm carbon fibre",
+      "Noise Cancellation": "Adaptive, 8 microphones",
+      "Battery": "Up to 30 hours (ANC on)",
+      "Bluetooth": "5.2, multipoint",
+      "Weight": "250 g"
+    },
+    "category": "electronics",
+    "createdAt": "2025-11-20",
+    "badges": ["bestseller", "deal"]
+  },
+  {
+    "id": "el-1004",
+    "title": "Xiaomi Redmi Note 13 Pro (8GB/256GB)",
+    "price": 36999,
+    "discountPrice": 29999,
+    "rating": 4.4,
+    "reviewCount": 3876,
+    "images": ["https://picsum.photos/seed/kk-el1004a/600/600", "https://picsum.photos/seed/kk-el1004b/600/600", "https://picsum.photos/seed/kk-el1004c/600/600"],
+    "brand": "Xiaomi",
+    "stock": 55,
+    "description": "200MP camera, 6.67-inch AMOLED display and 67W turbo charging — a powerhouse mid-ranger.",
+    "specs": {
+      "Display": "6.67\" AMOLED, 120Hz",
+      "Processor": "Snapdragon 7s Gen 2",
+      "RAM / Storage": "8GB / 256GB",
+      "Camera": "200MP + 8MP + 2MP",
+      "Battery": "5100 mAh, 67W fast charging"
+    },
+    "category": "electronics",
+    "createdAt": "2026-01-22",
+    "badges": ["deal"]
+  },
+  {
+    "id": "el-1005",
+    "title": "Canon EOS R50 Mirrorless Camera (18-45mm Kit)",
+    "price": 112000,
+    "discountPrice": 99500,
+    "rating": 4.5,
+    "reviewCount": 764,
+    "images": ["https://picsum.photos/seed/kk-el1005a/600/600", "https://picsum.photos/seed/kk-el1005b/600/600", "https://picsum.photos/seed/kk-el1005c/600/600"],
+    "brand": "Canon",
+    "stock": 8,
+    "description": "Compact APS-C mirrorless camera with 24.2MP sensor, Dual Pixel autofocus and 4K video — ideal for creators.",
+    "specs": {
+      "Sensor": "24.2MP APS-C CMOS",
+      "Autofocus": "Dual Pixel CMOS AF II",
+      "Video": "4K 30fps",
+      "Kit Lens": "RF-S 18-45mm f/4.5-6.3",
+      "Weight": "375 g (body only)"
+    },
+    "category": "electronics",
+    "createdAt": "2025-09-30",
+    "badges": []
+  },
+  {
+    "id": "el-1006",
+    "title": "Anker PowerCore 20,000mAh Power Bank",
+    "price": 4290,
+    "discountPrice": 3290,
+    "rating": 4.5,
+    "reviewCount": 8942,
+    "images": ["https://picsum.photos/seed/kk-el1006a/600/600", "https://picsum.photos/seed/kk-el1006b/600/600", "https://picsum.photos/seed/kk-el1006c/600/600"],
+    "brand": "Anker",
+    "stock": 120,
+    "description": "High-capacity 20,000mAh power bank with dual USB outputs and PowerIQ charging — charges most phones 5 times.",
+    "specs": {
+      "Capacity": "20,000 mAh",
+      "Outputs": "2x USB-A, 18W",
+      "Charging Time": "~6.5 hours",
+      "Protection": "MultiProtect 10-point",
+      "Weight": "348 g"
+    },
+    "category": "electronics",
+    "createdAt": "2025-08-11",
+    "badges": ["bestseller", "deal"]
+  },
+  {
+    "id": "el-1007",
+    "title": "Logitech MX Master 3S Wireless Mouse",
+    "price": 14500,
+    "discountPrice": 11900,
+    "rating": 4.8,
+    "reviewCount": 2156,
+    "images": ["https://picsum.photos/seed/kk-el1007a/600/600", "https://picsum.photos/seed/kk-el1007b/600/600", "https://picsum.photos/seed/kk-el1007c/600/600"],
+    "brand": "Logitech",
+    "stock": 33,
+    "description": "Quiet clicks, 8K DPI sensor and magnetic MagSpeed scroll wheel. Connects to up to three devices.",
+    "specs": {
+      "Sensor": "8,000 DPI Darkfield",
+      "Buttons": "7 customizable",
+      "Battery": "Up to 70 days (USB-C charge)",
+      "Connectivity": "Bluetooth + Logi Bolt",
+      "Compatibility": "Windows, macOS, Linux"
+    },
+    "category": "electronics",
+    "createdAt": "2026-02-17",
+    "badges": []
+  },
+  {
+    "id": "el-1008",
+    "title": "Samsung 32\" QLED 4K Smart Monitor (M8)",
+    "price": 54900,
+    "discountPrice": 46500,
+    "rating": 4.3,
+    "reviewCount": 512,
+    "images": ["https://picsum.photos/seed/kk-el1008a/600/600", "https://picsum.photos/seed/kk-el1008b/600/600", "https://picsum.photos/seed/kk-el1008c/600/600"],
+    "brand": "Samsung",
+    "stock": 6,
+    "description": "Slim 4K QLED smart monitor with built-in streaming apps, slim-fit camera and IoT hub — a monitor and TV in one.",
+    "specs": {
+      "Panel": "32\" QLED, 4K UHD",
+      "Refresh Rate": "60Hz",
+      "Smart OS": "Tizen",
+      "Ports": "USB-C (65W), HDMI, USB-A",
+      "Extras": "SlimFit camera, far-field mics"
+    },
+    "category": "electronics",
+    "createdAt": "2026-09-05",
+    "badges": ["new"]
+  }
+]

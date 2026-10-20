@@ -1,0 +1,50 @@
+[
+  {
+    "id": "electronics",
+    "name": "Electronics",
+    "icon": "Smartphone",
+    "blurb": "Phones, laptops, audio & more",
+    "image": "https://picsum.photos/seed/kk-cat-electronics/480/360",
+    "subcategories": ["Phones", "Laptops", "Audio", "Wearables", "Cameras", "Accessories"]
+  },
+  {
+    "id": "fashion",
+    "name": "Fashion",
+    "icon": "Shirt",
+    "blurb": "Apparel, footwear & watches",
+    "image": "https://picsum.photos/seed/kk-cat-fashion/480/360",
+    "subcategories": ["Men's Fashion", "Women's Fashion", "Kids", "Footwear", "Watches", "Bags"]
+  },
+  {
+    "id": "home",
+    "name": "Home & Kitchen",
+    "icon": "Armchair",
+    "blurb": "Furniture, kitchen & decor",
+    "image": "https://picsum.photos/seed/kk-cat-home/480/360",
+    "subcategories": ["Furniture", "Kitchen", "Bedding", "Decor", "Appliances", "Storage"]
+  },
+  {
+    "id": "books",
+    "name": "Books",
+    "icon": "BookOpen",
+    "blurb": "Fiction, academic & Bangla",
+    "image": "https://picsum.photos/seed/kk-cat-books/480/360",
+    "subcategories": ["Fiction", "Academic", "Self Help", "Business", "Children's", "Bangla Literature"]
+  },
+  {
+    "id": "beauty",
+    "name": "Beauty & Health",
+    "icon": "Sparkles",
+    "blurb": "Skincare, haircare & makeup",
+    "image": "https://picsum.photos/seed/kk-cat-beauty/480/360",
+    "subcategories": ["Skincare", "Haircare", "Makeup", "Fragrance", "Personal Care", "Supplements"]
+  },
+  {
+    "id": "sports",
+    "name": "Sports & Outdoors",
+    "icon": "Dumbbell",
+    "blurb": "Fitness, cricket & cycling",
+    "image": "https://picsum.photos/seed/kk-cat-sports/480/360",
+    "subcategories": ["Fitness", "Cricket", "Football", "Cycling", "Outdoor", "Yoga"]
+  }
+]

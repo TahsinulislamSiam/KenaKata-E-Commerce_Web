@@ -1,0 +1,31 @@
+[
+  {
+    "code": "KENA10",
+    "type": "percent",
+    "value": 10,
+    "minOrder": 1000,
+    "description": "10% off on orders over ৳1,000"
+  },
+  {
+    "code": "FREESHIP",
+    "type": "shipping",
+    "value": 100,
+    "minOrder": 2000,
+    "description": "Free delivery on orders over ৳2,000"
+  },
+  {
+    "code": "BD20",
+    "type": "percent",
+    "value": 20,
+    "maxDiscount": 1500,
+    "minOrder": 5000,
+    "description": "20% off (max ৳1,500) on orders over ৳5,000"
+  },
+  {
+    "code": "NEW50",
+    "type": "flat",
+    "value": 50,
+    "minOrder": 300,
+    "description": "Flat ৳50 off for new customers"
+  }
+]

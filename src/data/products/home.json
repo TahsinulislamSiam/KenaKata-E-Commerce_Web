@@ -1,0 +1,156 @@
+[
+  {
+    "id": "hm-3001",
+    "title": "5-Seat Fabric Sofa Set (Grey)",
+    "price": 45999,
+    "discountPrice": 37999,
+    "rating": 4.3,
+    "reviewCount": 312,
+    "images": ["https://picsum.photos/seed/kk-hm3001a/600/600", "https://picsum.photos/seed/kk-hm3001b/600/600", "https://picsum.photos/seed/kk-hm3001c/600/600"],
+    "brand": "Livingly",
+    "stock": 5,
+    "description": "Three+two seater fabric sofa set with high-density foam cushions and a solid wood frame.",
+    "specs": {
+      "Seating": "3+2 seater",
+      "Frame": "Seasoned hardwood",
+      "Upholstery": "Premium woven fabric",
+      "Cushion": "High-density foam",
+      "Warranty": "2 years"
+    },
+    "category": "home",
+    "createdAt": "2026-01-10",
+    "badges": []
+  },
+  {
+    "id": "hm-3002",
+    "title": "Non-Stick 5-Piece Cookware Set",
+    "price": 4990,
+    "discountPrice": 3590,
+    "rating": 4.5,
+    "reviewCount": 2451,
+    "images": ["https://picsum.photos/seed/kk-hm3002a/600/600", "https://picsum.photos/seed/kk-hm3002b/600/600", "https://picsum.photos/seed/kk-hm3002c/600/600"],
+    "brand": "KitchenPro",
+    "stock": 72,
+    "description": "Five-piece non-stick cookware set — frying pan, saucepan, kadai and tawa with cool-touch handles.",
+    "specs": {
+      "Pieces": "Frying pan, saucepan, kadai, tawa, spatula",
+      "Coating": "3-layer non-stick",
+      "Base": "Induction compatible",
+      "Handles": "Bakelite cool-touch",
+      "Warranty": "1 year"
+    },
+    "category": "home",
+    "createdAt": "2025-11-02",
+    "badges": ["bestseller", "deal"]
+  },
+  {
+    "id": "hm-3003",
+    "title": "Memory Foam Queen Mattress (10-Year Warranty)",
+    "price": 26500,
+    "discountPrice": 21990,
+    "rating": 4.6,
+    "reviewCount": 1189,
+    "images": ["https://picsum.photos/seed/kk-hm3003a/600/600", "https://picsum.photos/seed/kk-hm3003b/600/600", "https://picsum.photos/seed/kk-hm3003c/600/600"],
+    "brand": "DreamSleep",
+    "stock": 14,
+    "description": "10-inch queen mattress with zoned memory foam, cooling gel layer and washable zip cover.",
+    "specs": {
+      "Size": "Queen 78\" x 60\"",
+      "Height": "10 inches",
+      "Comfort": "Medium-firm",
+      "Layers": "Gel memory foam + support foam",
+      "Warranty": "10 years"
+    },
+    "category": "home",
+    "createdAt": "2026-04-19",
+    "badges": []
+  },
+  {
+    "id": "hm-3004",
+    "title": "Automatic Electric Kettle 1.7L (Stainless)",
+    "price": 2190,
+    "discountPrice": 1590,
+    "rating": 4.2,
+    "reviewCount": 3562,
+    "images": ["https://picsum.photos/seed/kk-hm3004a/600/600", "https://picsum.photos/seed/kk-hm3004b/600/600", "https://picsum.photos/seed/kk-hm3004c/600/600"],
+    "brand": "KitchenPro",
+    "stock": 110,
+    "description": "1.7-litre cordless kettle with auto shut-off, boil-dry protection and a concealed stainless heating element.",
+    "specs": {
+      "Capacity": "1.7 L",
+      "Power": "1500W",
+      "Material": "Stainless steel body",
+      "Features": "Auto shut-off, boil-dry protection",
+      "Cord": "360° swivel base"
+    },
+    "category": "home",
+    "createdAt": "2025-09-08",
+    "badges": ["deal"]
+  },
+  {
+    "id": "hm-3005",
+    "title": "LED Dimmable Floor Lamp (Warm Brass)",
+    "price": 3450,
+    "discountPrice": 2790,
+    "rating": 4.1,
+    "reviewCount": 445,
+    "images": ["https://picsum.photos/seed/kk-hm3005a/600/600", "https://picsum.photos/seed/kk-hm3005b/600/600", "https://picsum.photos/seed/kk-hm3005c/600/600"],
+    "brand": "Lumina",
+    "stock": 26,
+    "description": "Arc-style LED floor lamp with stepless dimming and a weighted marble base — reading corner approved.",
+    "specs": {
+      "Height": "165 cm",
+      "Light": "Integrated LED, 3000K warm",
+      "Dimming": "Stepless touch dimmer",
+      "Finish": "Brushed brass",
+      "Cable": "1.8 m"
+    },
+    "category": "home",
+    "createdAt": "2026-05-27",
+    "badges": []
+  },
+  {
+    "id": "hm-3006",
+    "title": "Cotton Bedsheet with 2 Pillowcovers (Queen)",
+    "price": 1690,
+    "discountPrice": 1190,
+    "rating": 4.4,
+    "reviewCount": 2870,
+    "images": ["https://picsum.photos/seed/kk-hm3006a/600/600", "https://picsum.photos/seed/kk-hm3006b/600/600", "https://picsum.photos/seed/kk-hm3006c/600/600"],
+    "brand": "NestBD",
+    "stock": 64,
+    "description": "100% combed cotton bedsheet set with a fade-resistant print — softens with every wash.",
+    "specs": {
+      "Material": "100% combed cotton",
+      "Set": "1 bedsheet + 2 pillowcovers",
+      "Size": "Bedsheet 90\"x108\", covers 17\"x27\"",
+      "Print": "Discharge print, colourfast",
+      "Care": "Machine wash"
+    },
+    "category": "home",
+    "createdAt": "2026-02-14",
+    "badges": []
+  },
+  {
+    "id": "hm-3007",
+    "title": "Digital Air Fryer 4.5L (8 Presets)",
+    "price": 8990,
+    "discountPrice": 6990,
+    "rating": 4.5,
+    "reviewCount": 1673,
+    "images": ["https://picsum.photos/seed/kk-hm3007a/600/600", "https://picsum.photos/seed/kk-hm3007b/600/600", "https://picsum.photos/seed/kk-hm3007c/600/600"],
+    "brand": "KitchenPro",
+    "stock": 19,
+    "description": "4.5-litre digital air fryer with 8 one-touch presets, shake reminder and up to 90% less oil.",
+    "specs": {
+      "Capacity": "4.5 L",
+      "Power": "1500W",
+      "Presets": "8 (fries, chicken, fish...)",
+      "Controls": "Digital touch + LCD",
+      "Basket": "Dishwasher safe, non-stick"
+    },
+    "category": "home",
+    "createdAt": "2026-09-12",
+    "badges": ["bestseller", "new"]
+  }
+]

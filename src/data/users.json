@@ -1,0 +1,31 @@
+[
+  {
+    "id": "u_demo",
+    "name": "Demo User",
+    "email": "demo@kenakata.com",
+    "password": "demo1234",
+    "phone": "01712-345678",
+    "addresses": [
+      {
+        "id": "addr_1",
+        "label": "Home",
+        "fullName": "Demo User",
+        "phone": "01712-345678",
+        "line1": "House 42, Road 11, Banani",
+        "city": "Dhaka",
+        "postalCode": "1213",
+        "isDefault": true
+      },
+      {
+        "id": "addr_2",
+        "label": "Office",
+        "fullName": "Demo User",
+        "phone": "01712-345678",
+        "line1": "Level 6, Bay's Galleria, Gulshan 1",
+        "city": "Dhaka",
+        "postalCode": "1212",
+        "isDefault": false
+      }
+    ]
+  }
+]

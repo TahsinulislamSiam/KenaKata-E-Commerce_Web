@@ -1,0 +1,156 @@
+[
+  {
+    "id": "bk-4001",
+    "title": "The Silent Patient (Paperback)",
+    "price": 650,
+    "discountPrice": 520,
+    "rating": 4.6,
+    "reviewCount": 5210,
+    "images": ["https://picsum.photos/seed/kk-bk4001a/600/600", "https://picsum.photos/seed/kk-bk4001b/600/600", "https://picsum.photos/seed/kk-bk4001c/600/600"],
+    "brand": "Atria Books",
+    "stock": 58,
+    "description": "A psychotherapist becomes obsessed with uncovering the motive behind a famous painter's silence after she shoots her husband.",
+    "specs": {
+      "Author": "Alex Michaelides",
+      "Format": "Paperback",
+      "Pages": "336",
+      "Language": "English",
+      "ISBN": "978-1471170980"
+    },
+    "category": "books",
+    "createdAt": "2025-07-14",
+    "badges": []
+  },
+  {
+    "id": "bk-4002",
+    "title": "Atomic Habits (Paperback)",
+    "price": 750,
+    "discountPrice": 610,
+    "rating": 4.8,
+    "reviewCount": 12845,
+    "images": ["https://picsum.photos/seed/kk-bk4002a/600/600", "https://picsum.photos/seed/kk-bk4002b/600/600", "https://picsum.photos/seed/kk-bk4002c/600/600"],
+    "brand": "Avery",
+    "stock": 140,
+    "description": "An easy & proven way to build good habits and break bad ones — small changes, remarkable results.",
+    "specs": {
+      "Author": "James Clear",
+      "Format": "Paperback",
+      "Pages": "320",
+      "Language": "English",
+      "ISBN": "978-0735211292"
+    },
+    "category": "books",
+    "createdAt": "2025-06-01",
+    "badges": ["bestseller"]
+  },
+  {
+    "id": "bk-4003",
+    "title": "তৃষ্ণা (Trishna) — Humayun Ahmed",
+    "price": 350,
+    "discountPrice": 300,
+    "rating": 4.7,
+    "reviewCount": 3420,
+    "images": ["https://picsum.photos/seed/kk-bk4003a/600/600", "https://picsum.photos/seed/kk-bk4003b/600/600", "https://picsum.photos/seed/kk-bk4003c/600/600"],
+    "brand": "Prothoma",
+    "stock": 76,
+    "description": "হুমায়ূন আহমেদের জনপ্রিয় উপন্যাস — মানুষের আকাঙ্ক্ষা, ভালোবাসা ও নিয়তির গল্প।",
+    "specs": {
+      "Author": "Humayun Ahmed",
+      "Format": "Paperback (ময়লা কাগজ)",
+      "Pages": "248",
+      "Language": "Bangla",
+      "Publisher": "Prothoma Prakashan"
+    },
+    "category": "books",
+    "createdAt": "2025-05-20",
+    "badges": ["bestseller"]
+  },
+  {
+    "id": "bk-4004",
+    "title": "The Psychology of Money (Paperback)",
+    "price": 690,
+    "discountPrice": 560,
+    "rating": 4.7,
+    "reviewCount": 8912,
+    "images": ["https://picsum.photos/seed/kk-bk4004a/600/600", "https://picsum.photos/seed/kk-bk4004b/600/600", "https://picsum.photos/seed/kk-bk4004c/600/600"],
+    "brand": "Harriman House",
+    "stock": 92,
+    "description": "Short stories exploring the strange ways people think about money and how behaviour beats formulas.",
+    "specs": {
+      "Author": "Morgan Housel",
+      "Format": "Paperback",
+      "Pages": "256",
+      "Language": "English",
+      "ISBN": "978-0857197689"
+    },
+    "category": "books",
+    "createdAt": "2025-08-09",
+    "badges": []
+  },
+  {
+    "id": "bk-4005",
+    "title": "Cracking the Coding Interview (6th Edition)",
+    "price": 1850,
+    "discountPrice": 1490,
+    "rating": 4.5,
+    "reviewCount": 2103,
+    "images": ["https://picsum.photos/seed/kk-bk4005a/600/600", "https://picsum.photos/seed/kk-bk4005b/600/600", "https://picsum.photos/seed/kk-bk4005c/600/600"],
+    "brand": "CareerCup",
+    "stock": 31,
+    "description": "189 programming questions and solutions with a systematic approach to interview prep at top tech companies.",
+    "specs": {
+      "Author": "Gayle Laakmann McDowell",
+      "Format": "Paperback",
+      "Pages": "687",
+      "Language": "English",
+      "ISBN": "978-0984782857"
+    },
+    "category": "books",
+    "createdAt": "2025-04-16",
+    "badges": []
+  },
+  {
+    "id": "bk-4006",
+    "title": "পথেরপাঁচালী (Pather Panchali) — বিভূতিভূষণ",
+    "price": 320,
+    "discountPrice": 270,
+    "rating": 4.6,
+    "reviewCount": 1876,
+    "images": ["https://picsum.photos/seed/kk-bk4006a/600/600", "https://picsum.photos/seed/kk-bk4006b/600/600", "https://picsum.photos/seed/kk-bk4006c/600/600"],
+    "brand": "Dey's Publishing",
+    "stock": 45,
+    "description": "বাংলা সাহিত্যের অমর কালজয়ী উপন্যাস — অপুর শৈশব, গ্রামের প্রকৃতি ও মানুষের সংগ্রামের চিত্র।",
+    "specs": {
+      "Author": "Bibhutibhushan Bandyopadhyay",
+      "Format": "Paperback",
+      "Pages": "392",
+      "Language": "Bangla",
+      "Publisher": "Dey's Publishing"
+    },
+    "category": "books",
+    "createdAt": "2025-03-12",
+    "badges": []
+  },
+  {
+    "id": "bk-4007",
+    "title": "Ikigai: The Japanese Secret to a Long and Happy Life",
+    "price": 590,
+    "discountPrice": 470,
+    "rating": 4.4,
+    "reviewCount": 6740,
+    "images": ["https://picsum.photos/seed/kk-bk4007a/600/600", "https://picsum.photos/seed/kk-bk4007b/600/600", "https://picsum.photos/seed/kk-bk4007c/600/600"],
+    "brand": "Hutchinson",
+    "stock": 67,
+    "description": "A journey to Okinawa's village of longevity and the small daily rituals that give life meaning.",
+    "specs": {
+      "Author": "Héctor García & Francesc Miralles",
+      "Format": "Paperback",
+      "Pages": "208",
+      "Language": "English",
+      "ISBN": "978-1786330895"
+    },
+    "category": "books",
+    "createdAt": "2026-01-08",
+    "badges": ["new"]
+  }
+]
