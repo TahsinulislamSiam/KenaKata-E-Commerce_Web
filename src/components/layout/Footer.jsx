@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Mail, Send, Twitter, Youtube } from 'lucide-react';
 import { useToast } from '@/context/ToastContext';
 import { Button } from '@/components/common/Button';
+import Logo from '@/components/common/Logo';
 
 const COLUMNS = [
   {
@@ -101,11 +102,8 @@ export default function Footer() {
       {/* Link columns */}
       <div className="mx-auto grid max-w-7xl grid-cols-2 gap-8 px-4 py-10 sm:px-6 md:grid-cols-4 lg:grid-cols-5">
         <div className="col-span-2 lg:col-span-1">
-          <Link to="/" className="flex items-center gap-2">
-            <span className="grid h-9 w-9 place-items-center rounded-lg bg-accent-500 text-base font-black text-white">
-              K
-            </span>
-            <span className="text-xl font-extrabold tracking-tight text-white">KenaKata</span>
+          <Link to="/" aria-label="KenaKata home">
+            <Logo size={42} tagline className="text-white" wordClassName="text-white" />
           </Link>
           <p className="mt-3 text-sm leading-relaxed text-slate-400">
             Your one-stop marketplace for electronics, fashion, home, books, beauty and sports —
@@ -117,7 +115,7 @@ export default function Footer() {
                 key={label}
                 href={href}
                 aria-label={label}
-                className="grid h-9 w-9 place-items-center rounded-lg bg-white/10 text-slate-300 transition hover:bg-accent-500 hover:text-white"
+                className="grid h-9 w-9 place-items-center rounded-lg bg-white/10 text-slate-300 transition hover:bg-accent-500 hover:text-brand-950"
               >
                 <Icon size={16} aria-hidden="true" />
               </a>

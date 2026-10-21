@@ -3,7 +3,7 @@ import cn from '@/utils/cn';
 
 const VARIANTS = {
   accent:
-    'bg-accent-500 text-white hover:bg-accent-600 active:bg-accent-700 shadow-sm hover:shadow-soft',
+    'bg-accent-500 text-brand-950 hover:bg-accent-400 active:bg-accent-300 shadow-sm hover:shadow-soft',
   primary:
     'bg-brand-700 text-white hover:bg-brand-800 active:bg-brand-900 shadow-sm hover:shadow-soft',
   outline:

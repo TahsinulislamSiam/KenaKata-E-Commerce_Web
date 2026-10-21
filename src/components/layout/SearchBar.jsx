@@ -172,7 +172,7 @@ export default function SearchBar({ categories = [], className }) {
         <button
           type="submit"
           aria-label="Search"
-          className="mr-1 my-1 grid w-10 shrink-0 place-items-center rounded-lg bg-accent-500 text-white transition hover:bg-accent-600 active:bg-accent-700"
+          className="mr-1 my-1 grid w-10 shrink-0 place-items-center rounded-lg bg-accent-500 text-brand-950 transition hover:bg-accent-400 active:bg-accent-300"
         >
           {searching ? (
             <Loader2 size={17} className="animate-spin" aria-hidden="true" />

@@ -29,7 +29,7 @@ export default function CategoryCard({ category, className }) {
             {category.productCount} products
           </p>
         </div>
-        <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-brand-50 text-brand-700 transition group-hover:bg-accent-500 group-hover:text-white dark:bg-brand-950 dark:text-brand-300">
+        <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-brand-50 text-brand-700 transition group-hover:bg-accent-500 group-hover:text-brand-950 dark:bg-brand-950 dark:text-brand-300">
           <ArrowUpRight size={15} aria-hidden="true" />
         </span>
       </div>

@@ -34,7 +34,7 @@ function Badge({ product }) {
   return (
     <div className="pointer-events-none absolute left-2 top-2 z-10 flex flex-col items-start gap-1">
       {hasDeal && (
-        <span className="rounded-md bg-accent-500 px-2 py-0.5 text-[11px] font-bold uppercase tracking-wide text-white shadow">
+        <span className="rounded-md bg-accent-500 px-2 py-0.5 text-[11px] font-bold uppercase tracking-wide text-brand-950 shadow">
           Deal
         </span>
       )}
@@ -85,10 +85,6 @@ function ProductCard({ product, layout = 'grid', className }) {
         alt={product.title}
         loading="lazy"
         className="aspect-square w-full object-cover transition-transform duration-300 group-hover:scale-105"
-        onError={(e) => {
-          e.currentTarget.src = product.images[0];
-          e.currentTarget.onerror = null;
-        }}
       />
       {soldOut && (
         <div className="absolute inset-0 flex items-center justify-center bg-slate-900/50">

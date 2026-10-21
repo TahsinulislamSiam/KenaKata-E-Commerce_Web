@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
+import { buildArtImage } from '@/data/illustrations';
+import { HERO_ART } from '@/data/artMap';
 
 const SLIDES = [
   {
@@ -12,7 +14,6 @@ const SLIDES = [
     href: '/products?category=electronics&sort=price-asc',
     from: 'from-brand-900',
     to: 'to-brand-700',
-    image: 'https://picsum.photos/seed/kk-hero-electronics/720/520',
   },
   {
     id: 'fashion',
@@ -23,7 +24,6 @@ const SLIDES = [
     href: '/products?category=fashion',
     from: 'from-slate-900',
     to: 'to-brand-900',
-    image: 'https://picsum.photos/seed/kk-hero-fashion/720/520',
   },
   {
     id: 'home',
@@ -34,7 +34,6 @@ const SLIDES = [
     href: '/products?category=home',
     from: 'from-brand-800',
     to: 'to-accent-700',
-    image: 'https://picsum.photos/seed/kk-hero-home/720/520',
   },
   {
     id: 'delivery',
@@ -45,7 +44,6 @@ const SLIDES = [
     href: '/products',
     from: 'from-accent-600',
     to: 'to-accent-800',
-    image: 'https://picsum.photos/seed/kk-hero-delivery/720/520',
   },
 ];
 
@@ -94,15 +92,28 @@ export default function HeroCarousel() {
             }`}
           >
             <div className={`relative h-full w-full bg-gradient-to-br ${s.from} ${s.to} `}>
-              {/* Decorative image (right half) */}
-              <div className="absolute inset-y-0 right-0 hidden w-1/2 md:block">
-                <img
-                  src={s.image}
-                  alt=""
-                  aria-hidden="true"
-                  className="h-full w-full object-cover opacity-40 mix-blend-luminosity"
-                />
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent to-transparent" />
+              {/* Floating product illustration chips (right half) */}
+              <div
+                className="absolute inset-y-0 right-0 hidden w-1/2 items-center justify-center gap-4 md:flex"
+                aria-hidden="true"
+              >
+                {(HERO_ART[s.id] ?? []).map((key, chipIndex) => (
+                  <div
+                    key={key}
+                    className="rounded-2xl bg-white/95 p-2 shadow-card-hover ring-1 ring-white/40 dark:bg-slate-900/90"
+                    style={{
+                      transform: `rotate(${(chipIndex - 1) * 7}deg) translateY(${
+                        chipIndex === 1 ? '-18px' : '10px'
+                      })`,
+                    }}
+                  >
+                    <img
+                      src={buildArtImage(key, 'ivory')}
+                      alt=""
+                      className="h-24 w-24 rounded-xl object-cover lg:h-32 lg:w-32"
+                    />
+                  </div>
+                ))}
               </div>
 
               <div className="relative flex h-full flex-col justify-center gap-3 px-6 text-white sm:px-10 md:w-3/5">
@@ -117,7 +128,7 @@ export default function HeroCarousel() {
                   <Link
                     to={s.href}
                     tabIndex={i === index ? 0 : -1}
-                    className="inline-flex h-11 items-center gap-2 rounded-xl bg-accent-500 px-5 text-sm font-bold text-white shadow-soft transition hover:bg-accent-400 active:scale-[0.98]"
+                    className="inline-flex h-11 items-center gap-2 rounded-xl bg-accent-500 px-5 text-sm font-bold text-brand-950 shadow-soft transition hover:bg-accent-400 active:scale-[0.98]"
                   >
                     {s.cta} <ArrowRight size={16} aria-hidden="true" />
                   </Link>

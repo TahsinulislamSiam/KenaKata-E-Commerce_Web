@@ -5,38 +5,38 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Deep indigo - primary brand color
+        // Deep emerald - primary brand colour ("Emerald & Ivory" theme)
         brand: {
-          50: '#eef2ff',
-          100: '#e0e7ff',
-          200: '#c7d2fe',
-          300: '#a5b4fc',
-          400: '#818cf8',
-          500: '#6366f1',
-          600: '#4f46e5',
-          700: '#4338ca',
-          800: '#3730a3',
-          900: '#312e81',
-          950: '#1e1b4b',
+          50: '#f0faf5',
+          100: '#dbf3e7',
+          200: '#b9e6d1',
+          300: '#8bd4b6',
+          400: '#4fbb94',
+          500: '#239f77',
+          600: '#12815f',
+          700: '#0e674e',
+          800: '#0c5240',
+          900: '#0a4235',
+          950: '#05271f',
         },
-        // Orange accent - CTAs & highlights
+        // Antique gold - CTAs & highlights (always paired with brand-950 text)
         accent: {
-          50: '#fff7ed',
-          100: '#ffedd5',
-          200: '#fed7aa',
-          300: '#fdba74',
-          400: '#fb923c',
-          500: '#f97316',
-          600: '#ea580c',
-          700: '#c2410c',
-          800: '#9a3412',
-          900: '#7c2d12',
+          50: '#fbf7ea',
+          100: '#f7efcf',
+          200: '#efdf9d',
+          300: '#e7cb6a',
+          400: '#dfb73f',
+          500: '#d4a51d',
+          600: '#8f6a0a',
+          700: '#755609',
+          800: '#5c440a',
+          900: '#45330b',
         },
-        // Warm paper-like surface for light mode
+        // Warm ivory surfaces (light mode)
         surface: {
-          50: '#f8fafc',
-          100: '#f1f5f9',
-          200: '#e2e8f0',
+          50: '#fbf9f4',
+          100: '#f5f1e7',
+          200: '#ece6d7',
         },
       },
       fontFamily: {
@@ -51,11 +51,14 @@ export default {
           'Arial',
           'sans-serif',
         ],
+        display: ['Playfair Display', 'Georgia', 'Cambria', 'Times New Roman', 'serif'],
       },
       boxShadow: {
-        card: '0 1px 2px 0 rgb(15 23 42 / 0.06), 0 1px 3px 0 rgb(15 23 42 / 0.08)',
-        'card-hover': '0 10px 25px -5px rgb(15 23 42 / 0.12), 0 8px 10px -6px rgb(15 23 42 / 0.08)',
-        soft: '0 4px 14px -3px rgb(15 23 42 / 0.10)',
+        card: '0 1px 2px 0 rgb(10 66 53 / 0.06), 0 1px 3px 0 rgb(10 66 53 / 0.08)',
+        'card-hover':
+          '0 10px 25px -5px rgb(10 66 53 / 0.14), 0 8px 10px -6px rgb(10 66 53 / 0.08)',
+        soft: '0 4px 14px -3px rgb(10 66 53 / 0.12)',
+        crest: '0 2px 10px -2px rgb(10 66 53 / 0.35)',
       },
       keyframes: {
         'fade-in-up': {

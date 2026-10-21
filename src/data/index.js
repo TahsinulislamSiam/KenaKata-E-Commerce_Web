@@ -9,9 +9,33 @@ import home from './products/home.json';
 import books from './products/books.json';
 import beauty from './products/beauty.json';
 import sports from './products/sports.json';
+import { buildProductImages, buildCategoryImage } from './illustrations';
+import { PRODUCT_ART, CATEGORY_ART } from './artMap';
 
-/** All products from every category in one list (44 items). */
-export const products = [...electronics, ...fashion, ...home, ...books, ...beauty, ...sports];
+const rawProducts = [
+  ...electronics,
+  ...fashion,
+  ...home,
+  ...books,
+  ...beauty,
+  ...sports,
+];
+
+/**
+ * Replace the placeholder `images` with on-theme illustrations that match each
+ * product (see illustrations.js). When a real API arrives, its CDN URLs are
+ * used as-is and this hydration becomes a no-op.
+ */
+export const products = rawProducts.map((product) => {
+  const artKey = PRODUCT_ART[product.id];
+  return artKey ? { ...product, images: buildProductImages(artKey) } : product;
+});
+
+/** Categories with illustration-based tile images. */
+export const hydratedCategories = categories.map((category) => ({
+  ...category,
+  image: buildCategoryImage(CATEGORY_ART[category.id] ?? 'phone'),
+}));
 
 const productById = new Map(products.map((p) => [String(p.id), p]));
 
@@ -21,4 +45,4 @@ export function findProductById(id) {
   return product ? { ...product } : null;
 }
 
-export { categories, coupons, users };
+export { coupons, users };

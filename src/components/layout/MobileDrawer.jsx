@@ -20,6 +20,7 @@ import { useTheme } from '@/context/ThemeContext';
 import { useToast } from '@/context/ToastContext';
 import useCategories from '@/hooks/useCategories';
 import useLockBodyScroll from '@/hooks/useLockBodyScroll';
+import Logo from '@/components/common/Logo';
 
 /** Slide-in navigation drawer for mobile (menu button in the navbar). */
 export default function MobileDrawer({ open, onClose }) {
@@ -86,11 +87,8 @@ export default function MobileDrawer({ open, onClose }) {
         }`}
       >
         <div className="flex items-center justify-between border-b border-slate-200 bg-brand-900 px-4 py-3 text-white dark:border-slate-700 dark:bg-slate-950">
-          <Link to="/" onClick={onClose} className="flex items-center gap-2">
-            <span className="grid h-8 w-8 place-items-center rounded-lg bg-accent-500 text-sm font-black">
-              K
-            </span>
-            <span className="text-lg font-extrabold tracking-tight">KenaKata</span>
+          <Link to="/" onClick={onClose} aria-label="KenaKata home">
+            <Logo size={32} className="text-white" wordClassName="text-white" />
           </Link>
           <button
             type="button"
@@ -111,7 +109,7 @@ export default function MobileDrawer({ open, onClose }) {
               <Link
                 to="/login"
                 onClick={onClose}
-                className="mt-2 inline-flex h-9 items-center rounded-lg bg-accent-500 px-4 text-sm font-semibold text-white transition hover:bg-accent-600"
+                className="mt-2 inline-flex h-9 items-center rounded-lg bg-accent-500 px-4 text-sm font-semibold text-brand-950 transition hover:bg-accent-400"
               >
                 Sign in
               </Link>
@@ -129,7 +127,7 @@ export default function MobileDrawer({ open, onClose }) {
                   <Icon size={18} className="text-brand-600 dark:text-brand-400" aria-hidden="true" />
                   <span className="flex-1">{label}</span>
                   {badge > 0 && (
-                    <span className="rounded-full bg-accent-500 px-2 py-0.5 text-[11px] font-bold text-white">
+                    <span className="rounded-full bg-accent-500 px-2 py-0.5 text-[11px] font-bold text-brand-950">
                       {badge}
                     </span>
                   )}

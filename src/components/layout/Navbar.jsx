@@ -15,6 +15,7 @@ import {
   User,
 } from 'lucide-react';
 import cn from '@/utils/cn';
+import Logo from '@/components/common/Logo';
 import SearchBar from '@/components/layout/SearchBar';
 import MobileDrawer from '@/components/layout/MobileDrawer';
 import { useAuth } from '@/context/AuthContext';
@@ -84,17 +85,8 @@ export default function Navbar() {
           </button>
 
           {/* Logo */}
-          <Link
-            to="/"
-            aria-label="KenaKata home"
-            className="flex shrink-0 items-center gap-2 text-white"
-          >
-            <span className="grid h-9 w-9 place-items-center rounded-xl bg-accent-500 text-base font-black shadow-sm">
-              K
-            </span>
-            <span className="hidden text-xl font-extrabold tracking-tight sm:inline">
-              KenaKata
-            </span>
+          <Link to="/" aria-label="KenaKata home" className="shrink-0">
+            <Logo size={38} responsiveWord className="text-white" wordClassName="text-white" />
           </Link>
 
           {/* Deliver-to (desktop) */}
@@ -133,7 +125,7 @@ export default function Navbar() {
                 className="hidden items-center gap-1 rounded-lg px-2 py-1.5 text-white transition hover:bg-white/10 sm:flex"
               >
                 {isAuthenticated ? (
-                  <span className="grid h-7 w-7 place-items-center rounded-full bg-accent-500 text-xs font-black">
+                  <span className="grid h-7 w-7 place-items-center rounded-full bg-accent-500 text-xs font-black text-brand-950">
                     {initials || 'U'}
                   </span>
                 ) : (
@@ -176,7 +168,7 @@ export default function Navbar() {
                         to="/login"
                         onClick={() => setAccountOpen(false)}
                         role="menuitem"
-                        className="mt-2 flex h-9 w-full items-center justify-center rounded-lg bg-accent-500 text-sm font-semibold text-white transition hover:bg-accent-600"
+                        className="mt-2 flex h-9 w-full items-center justify-center rounded-lg bg-accent-500 text-sm font-semibold text-brand-950 transition hover:bg-accent-400"
                       >
                         <LogIn size={15} className="mr-1.5" aria-hidden="true" /> Sign in
                       </Link>
@@ -253,8 +245,8 @@ export default function Navbar() {
               <ShoppingCart size={21} aria-hidden="true" />
               <span
                 className={cn(
-                  'absolute -right-0.5 -top-0.5 grid h-5 min-w-[1.25rem] place-items-center rounded-full px-1 text-[10px] font-bold leading-none text-white',
-                  cartCount > 0 ? 'bg-accent-500' : 'bg-slate-500'
+                  'absolute -right-0.5 -top-0.5 grid h-5 min-w-[1.25rem] place-items-center rounded-full px-1 text-[10px] font-bold leading-none',
+                  cartCount > 0 ? 'bg-accent-500 text-brand-950' : 'bg-white/25 text-white'
                 )}
               >
                 {cartCount}

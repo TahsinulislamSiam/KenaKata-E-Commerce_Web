@@ -1,5 +1,5 @@
 
-import { products, categories, coupons, users as demoUsers, findProductById } from '@/data';
+import { products, hydratedCategories as categories, coupons, users as demoUsers, findProductById } from '@/data';
 import { queryProducts, collectBrands, getPriceRange } from '@/utils/productQuery';
 import { getStoredJSON, setStoredJSON } from '@/utils/storage';
 import { STORAGE_KEYS } from '@/utils/constants';
